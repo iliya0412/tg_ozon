@@ -14,7 +14,7 @@ from telegram.ext import (
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 
-TOKEN = "7573170013:AAHV1uLLPGh1Uzt1Udu510Y3Bqtvk0c8vjM"
+TOKEN = "8128628004:AAEGqc1kIvZV-z3jh3VPkvTyWVlEEd01wLA"
 LOGIN, WEEK = range(2)
 
 SCOPE = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
