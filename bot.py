@@ -7,7 +7,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 LOGIN, WEEK = range(2)
 
 SCOPE = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-CREDS = ServiceAccountCredentials.from_json_keyfile_name("proizvod-b74d1d3c1ba9.json", SCOPE)
+CREDS = ServiceAccountCredentials.from_json_keyfile_name("proizvod-49f7ea2db080.json", SCOPE)
 client = gspread.authorize(CREDS)
 SPREADSHEET_URL = "https://docs.google.com/spreadsheets/d/1TI1VGYBDvsRinBVHAPf1wZDvBN-rRCW_Fic6Q9-5nqA/edit?usp=sharing"
 
