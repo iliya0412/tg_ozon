@@ -65,7 +65,7 @@ def cancel(update: Update, context: CallbackContext) -> int:
     return ConversationHandler.END
 
 def main():
-    updater = Updater("8128628004:AAEGqc1kIvZV-z3jh3VPkvTyWVlEEd01wLA", use_context=True)
+    updater = Updater("7573170013:AAHV1uLLPGh1Uzt1Udu510Y3Bqtvk0c8vjM", use_context=True)
     dp = updater.dispatcher
 
     conv_handler = ConversationHandler(
